@@ -1,0 +1,206 @@
+/* header + image */
+
+header {
+		text-align: center;
+		color: #89c2d9ff;
+		font-family: 'Roboto', sans-serif;
+		padding: 110px 10px 0px 10px;
+		line-height: 10px;
+		line-height: 20px;
+		background-image: url("images/leone-venter.jpg");
+		background-size: cover;
+		background-position: center;
+}
+
+img{
+	width:  100%;
+	height:  auto;
+}
+
+h2{
+	color: darkgrey;
+	text-shadow: 2px 2px 2px white ;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.image-legend{
+	text-align: left;
+	padding-top: 70px;
+	font-size: 6px;
+}
+
+
+/* intro */
+
+.intro{
+	font-family: 'Montserrat', sans-serif;
+	margin: 20px auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	max-width: 1000px;
+	text-align: center;
+	text-anchor: end;
+	line-height: 40px;
+}
+
+.more{
+	font-family: 'Montserrat', sans-serif;
+	color: #89c2d9ff;
+	font-size: 20px;
+	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	max-width: 1000px;
+	text-align: center;
+}
+
+.double-arrow{
+	font-size: 30px;
+}
+
+
+/* image work experiences*/
+
+.card-title{
+	text-align: center;
+	color: #89c2d9ff;
+	text-shadow: 2px 2px 2px white ;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+}
+
+.card-text-2{
+	font-size: 6px;
+	margin: auto;
+	margin-left: 5px;
+	}
+
+/* removing padding from columns - NOT WORKING */
+
+.row{
+	padding-right: 0; padding-left: 0;
+}
+
+.col-6{
+	padding-right: 0; padding-left: 0;
+}
+
+
+/* work experiences text*/
+
+.intro-2{
+	font-family: 'Montserrat', sans-serif;
+	margin: 30px auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	max-width: 800px;
+	text-anchor: end;
+	line-height: 35px;
+	text-align: center;
+}
+
+.explore{
+	font-family: 'Montserrat', sans-serif;
+	color: #89c2d9ff;
+	font-size: 15px;
+	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	max-width: 1000px;
+	text-align: center;
+	text-anchor: end;
+}
+
+/* informations when opening the work experiences */
+
+.click{
+	text-align: center;
+}
+
+.btn-group-vertical{
+    max-width: 550px;
+    margin-top: 5px;
+
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+}
+
+p{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px ;
+	margin: 10px 35px 10px 35px;
+	max-width: 500px;
+	min-height: 150px;
+}
+
+/* interests */
+
+.card-text-3{
+	font-size: 6px;
+	margin-right: 5px;
+	text-align: right;
+	}
+
+.interests{
+	font-family: 'Montserrat', sans-serif;
+	margin: 60px auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	max-width: 1000px;
+	text-align: center;
+	text-anchor: end;
+	line-height: 40px;
+}
+
+
+/* footer */
+
+footer {
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+	background-color: whitesmoke;
+	color: white; 
+}
+
+
+/* CSS HEX */
+--antique-brass: #cb997eff;
+--desert-sand: #ddbea9ff;
+--champagne-pink: #ffe8d6ff;
+--ash-gray: #b7b7a4ff;
+--artichoke: #a5a58dff;
+--ebony: #6b705cff;
+
+/* CSS HEX */
+--prussian-blue: #012a4aff;
+--indigo-dye: #013a63ff;
+--indigo-dye-2: #01497cff;
+--usafa-blue: #014f86ff;
+--sapphire-blue: #2a6f97ff;
+--celadon-blue: #2c7da0ff;
+--blue-green: #468fafff;
+--maximum-blue: #61a5c2ff;
+--dark-sky-blue: #89c2d9ff;
+--light-blue: #a9d6e5ff;
+
+/* CSS HEX */
+--seal-brown: #582f0eff;
+--russet: #7f4f24ff;
+--coyote-brown: #936639ff;
+--camel: #a68a64ff;
+--khaki-web: #b6ad90ff;
+--laurel-green: #c2c5aaff;
+--sage: #a4ac86ff;
+--dark-olive-green: #656d4aff;
+--rifle-green: #414833ff;
+--kombu-green: #333d29ff;
