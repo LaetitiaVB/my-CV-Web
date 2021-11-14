@@ -9,8 +9,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
 	
 	<!-- fontawesome - linkedin icon */ -->
 	<script src="https://kit.fontawesome.com/e64e8a0bf7.js" crossorigin="anonymous"></script>
@@ -70,19 +72,49 @@ I'm living and working in Lisbon (Portugal) for 4 years.
 <!-- !!! size of picture / card + padding-->
 
 <br>
+<!-- 
 
-
-<div class="row justify-content-center align-items-center" style="background-color: whitesmoke">
-    <div class="col-6">
-      <img src="images/corinne-kutz.jpg" alt="Work Experiences">
+<div class="row justify-content-center align-items-center" style="background-color: whitesmoke; max-height: 400px;" >
+    <div class="col-8">
+      <img src="images/corinne-kutz.jpg" alt="Work Experiences" style="max-height: 400px;">
     </div>
-    <div class="col-6">
+    <div class="col-4">
 		<h5 class="card-title"><strong>Work Experiences</strong></h5>   
     </div>
 </div>
 
 <div class="card-text-2"><small class="text-muted">Photo by Corinne Kutz on Unsplash</small>
 	</div> 
+
+<br> -->
+
+<div class="image-xp">
+	<h5 class="card-title"><strong>My Work <br> Experiences</strong></h5> 
+	<div class="image-legend-xp"><small class="text-muted">Photo by Corinne Kutz on Unsplash </small> 
+	</div>
+</div>
+
+<br>
+
+<!-- <div class="wrapper">
+	<section class="one">	
+		<div class="content">
+			<div class="card-title">My Experiences</div>
+			<div class="subheading">
+I started my career journey as a Project Manager at Group-IPS, in Belgium, leading various projects in both pharmaceutical and alimentary sectors.
+			</div>
+		</div>
+	</section>
+</div> -->
+
+<!-- image 2 as flexbox -->
+
+<!-- <div class="flex-container">
+  <div style="flex-grow: 1"> <img src="images/corinne-kutz.jpg" alt="Work Experiences" class="item-xp"> </div>
+  <div style="flex-grow: 1"> <h5 class="card-title item-xp2"><strong>Work Experiences</strong></h5></div>
+</div> -->
+
+
 
 <!-- work experiences text -->
 
@@ -102,19 +134,19 @@ All these multi-cultural experiences enabled me to improve my knowledge and flue
 </div>
 
 <div class="explore">
-<strong>Explore my work experiences by clicking on the titles.</strong>
+<strong>Explore my work experiences on the timeline below.</strong>
 </div>
 
 
-<div class="d-flex justify-content-center">
-	<a> <span style ="color: #89c2d9ff;"> <i class="fas fa-caret-down"></i></span>
+<!-- <div class="d-flex justify-content-center arrow-down">
+	<a> <span style ="color: #89c2d9ff;"> <i class="fas fa-caret-down fa-2x"></i></span>
 </a>
-</div>
+</div> -->
 
 
 <!-- work experiences list click -->
 
-<div class="container2">
+<!--  <div class="container2">
 	<div class="btn-group-vertical mx-auto" role="group" aria-label="Basic outlined example" style="width: 550px;">
 	  <button type="button" id="IT-PM" class="btn btn-secondary">IT PROJECT MANAGER / SCRUM MASTER (12/2020 - Now)</button>
 	  <button type="button" id="quality" class="btn btn-outline-info">QUALITY MANAGER (09/2019 - 11/2020)</button>
@@ -123,34 +155,150 @@ All these multi-cultural experiences enabled me to improve my knowledge and flue
 	  <button type="button" id="ips" class="btn btn-secondary">JUNIOR PROJECT ENGINEER (10/2016 - 11/2017)</button>
 	  <p id="information"></p>
 	</div>
+</div>  -->
+
+<!-- Experiences as timeline -->
+
+<div class="timeline">
+  <div class="container-timeline c-left">
+  	<div class="date">  12/2020 - today </div>
+    <div class="content-timeline">
+      <div class="timeline-header">IT PROJECT MANAGER / SCRUM MASTER</div>
+      <div class="timeline-header2">TechFirm Portugal</div>
+      	<div class="timeline-text">Function executed in Portuguese, English and French. <br>Managing Nearshore IT projects for different clients (Healthcare software, WebApp), executing functional tests, working in virtual and multilingual teams (EN, PT, FR). <br>Analyzing KPIs and reporting to PMO. <br>Scrum coaching and ceremonies coordination.
+		</div>
+    </div>
+   </div>
+  <div class="container-timeline c-right">
+  	<div class="date">09/2019 - 11/2020</div>
+    <div class="content-timeline">
+      <div class="timeline-header">QUALITY MANAGER</div>
+      <div class="timeline-header2">Horto do Campo Grande</div>
+      <div class="timeline-text">Function totally executed in Portuguese. <br>Managing quality and legal compliance (ISO 9001, 14001 & 18001/45001), by continuously improving processes and procedures, running internal and external audits and analyzing data. <br>Reporting KPIs and non-conformities, and identifying improvements, directly to the Direction.
+      </div>
+    </div>
+  </div>
+  <div class="container-timeline c-left">
+  	<div class="date">02/2019 - 08/2019</div>
+    <div class="content-timeline">
+      <div class="timeline-header">SERVICE & OPERATIONS QUALITY</div>
+      <div class="timeline-header2">Galp</div>
+      	<div class="timeline-text">First professional experience executed in a national company and exclusively in Portuguese.<br>Creating and improving procedures and work instructions to match with current work practices. 
+		</div>
+    </div>
+   </div>
+  <div class="container-timeline c-right">
+  	<div class="date">12/2017 - 12/2018</div>
+    <div class="content-timeline">
+      <div class="timeline-header">HSE & QUALITY MANAGER / SYSTEMS ENGINEER</div>
+      <div class="timeline-header2">Jungle Concept</div>
+      <div class="timeline-text">Function executed in Portuguese, English and French.<br>Managing quality, HSE and legal compliance and preparing to GLOBALG.A.P. certification. <br>Collecting and analysing data, reporting trials results to the Direction and Master Grower. <br>Managing stock, orders and suppliers; participating in growing trials and production planning. <br>Involved in software procurement for production and traceability management.
+      </div>
+    </div>
+  </div>
+  <div class="container-timeline c-left">
+  	<div class="date">10/2016 - 11/2017</div>
+    <div class="content-timeline">
+      <div class="timeline-header">JUNIOR PROJECT ENGINEER</div>
+      <div class="timeline-header2">IPS Belgium</div>
+      	<div class="timeline-text">Managing autonomously various projects on the client site for Lotus Bakeries (Food industry) and GlaxoSmithKline (Pharmaceutical Industry), reporting directly to the client. <br>Managing suppliers procurement, planning and budget, changes requests.
+		</div>
+    </div>
+   </div>
+   <div class="container-timeline c-right">
+  	<div class="date">09/2011 - 09/2016</div>
+    <div class="content-timeline">
+      <div class="timeline-header">BIOENGINEER GRADUATION</div>
+      <div class="timeline-header2">Université Libre de Bruxelles</div>
+      <div class="timeline-text">Bachelor and Master in Bioengineering. <br> Master focused on Chemistry, Bioindustries and Bioinformatics
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+<div class="image-skills">
+	<h5 class="card-title"><strong>My Skills</strong></h5> 
+	<div class="image-legend-xp"><small class="text-muted">Photo by Beatriz Perez on Unsplash </small> 
+	</div>
+</div>
+
+
+<br>
+<div class="skills">
+<div class="skills-text">
+My studies as well as my various work experiences and my curiosity to learn about new subjects and improve my knowledge enabled me to develop the following skills:
+</div>
+<br>
+<div class="skills-soft">
+<div class="tag-soft"><strong>Soft skills:</strong></div><br>
+	<div class="tag">Agile</div>
+	<div class="tag">Scrum</div>	
+	<div class="tag">Process improvement</div>
+	<br>
+	<div class="tag">Team management</div>
+	<div class="tag">Project management</div>
+	<div class="tag">Quality management</div>
+	<br>
+	<div class="tag">Autonomy</div>
+	<div class="tag">Proactivity</div>
+</div>
+<br>
+<div class="tag-tech"><strong>Technical skills:</strong></div> <br>
+	<div class="tag2">Advanced Excel</div>
+	<div class="tag2">Word</div>
+	<div class="tag2">PowerPoint</div>
+	<div class="tag2">Data Analysis</div> 
+	<div class="tag2">MS Project</div> 
+	<br>
+	<div class="tag2">HTML, CSS, JavaScript</div>
+	<div class="tag2">LaTeX</div> 
+	<br>
+	<div class="tag2">JIRA, Trello, Todoist</div>
+	<div class="tag2">Google Calendar, Gmail</div>
+	<div class="tag2">Teams, Discord</div>
 </div>
 
 <br>
 
 <!-- interests -->
 
-<div class="row justify-content-center align-items-center" style="background-color: whitesmoke">
-    <div class="col-6">
-		<h5 class="card-title"><strong>My Interests</strong></h5>    
-    </div>
-    <div class="col-6">
-      <img src="images/erol-ahmed.jpg" alt="Work Experiences">
-    </div>
+<div class="image-interests">
+	<h5 class="card-title"><strong>My Interests</strong></h5> 
+	<div class="image-legend-xp"><small class="text-muted">Photo by Sarah Dorweiler on Unsplash </small> 
+	</div>
 </div>
 
-  <div class="card-text-3"><small class="text-muted">Photo by Erol Ahmed on Unsplash</small></div>
+<br>
+<div class="skills">
+<div class="tag-soft"><strong>My Interests:</strong></div><br>	
+	<div class="tag">Reading</div>
+	<div class="tag">Art Exhibitions</div>
+	<div class="tag">Listening to podcasts</div> <br>
+	<div class="tag">Pilates</div>
+	<div class="tag">Personal Development</div>
+	<div class="tag">Plant care</div> <br>
+	<div class="tag">Sustainability</div>
+	<div class="tag">Innovation & Technologies</div>
+</div>
 
-<div class="interests">
-
-Reading, doing pilates, listening to podcasts, plant care and going to art exhibitions are part of my hobbies. 
 <!-- 
+<div class="interests-buttons">
+	<button type="button" class="collapsible">Pilates</button>
+		<div class="content-interest">
+  			<div>Since I am 6 years old, I practise ballet. In 2020, due to the pandemic, the dance school closed and lessons were given online, but it was not the same. I then discovered pilates and began to follow some girls teaching pilates online and since then, it's part of my routine. What I like in...
+  			Pilates, like ballet I practised for many years, values the connection between the mind and the body, as you need to be conscient about your entire body, movements, deeper muscles and breathing. </div>
+		</div>
 <br>
-I am also interested in sustainability, finances, technologies.
- -->
-<br>
-Main Interests: Project Management | IT | Agile | Quality | Data Analysis | Process Improvement | Innovation & Technologies | Sustainability
-
-</div>
+	<button type="button" class="collapsible">Plant Care</button>
+		<div class="content-interest">
+  			<div>Taking care of indoor plants and garden has always been part of my life. I spent my adolescence in the Walloon countryside and learned to take care of a garden and a vegetable garden. When I moved back to the city, I brang nature home with indoor plants. Today,...
+  			I take care of about 30 indoor plants, and my favorites ones are ferns. Ferns are special because they don't have seeds or flowers, thus reproduce via spores, grow by unrolling fronds, and exist for hundreds of millions of years (some of them as old as the Carboniferous Period) and can grow high as trees.  
+ 			</div>
+		</div>
+</div> -->
 
 
 <!-- footer -->
