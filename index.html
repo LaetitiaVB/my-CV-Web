@@ -38,10 +38,12 @@
 
 	<h2> <em> <strong> IT Project Manager </strong></em> </h2>
 
-	<div class="image-legend"><small class="text-muted">Photo by Leone Venter on Unsplash </small> 
+	<div class="image-legend"><small>Photo by Leone Venter on Unsplash </small> 
 </div>
 
 </header>
+
+<div><button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></button></div>
 
 
 <!-- intro -->
@@ -62,58 +64,17 @@ I'm living and working in Lisbon (Portugal) for 4 years.
 </div>
 
 <div class="d-flex justify-content-center">
-	<a> <span style ="color: #89c2d9ff;"> <i class="fas fa-angle-double-down double-arrow"></i></span>
+	<a href="#image-xp"> <span style ="color: #89c2d9ff;"> <i class="fas fa-angle-double-down double-arrow"></i></span>
 </a>
 </div>
 
-
-<!-- image 2 as card -->
-
-<!-- !!! size of picture / card + padding-->
-
 <br>
-<!-- 
 
-<div class="row justify-content-center align-items-center" style="background-color: whitesmoke; max-height: 400px;" >
-    <div class="col-8">
-      <img src="images/corinne-kutz.jpg" alt="Work Experiences" style="max-height: 400px;">
-    </div>
-    <div class="col-4">
-		<h5 class="card-title"><strong>Work Experiences</strong></h5>   
-    </div>
-</div>
-
-<div class="card-text-2"><small class="text-muted">Photo by Corinne Kutz on Unsplash</small>
-	</div> 
-
-<br> -->
-
-<div class="image-xp">
+<div id="image-xp" class="image-xp">
 	<h5 class="card-title"><strong>My Work <br> Experiences</strong></h5> 
-	<div class="image-legend-xp"><small class="text-muted">Photo by Corinne Kutz on Unsplash </small> 
+	<div class="image-legend-xp"><small>Photo by Corinne Kutz on Unsplash </small> 
 	</div>
 </div>
-
-<br>
-
-<!-- <div class="wrapper">
-	<section class="one">	
-		<div class="content">
-			<div class="card-title">My Experiences</div>
-			<div class="subheading">
-I started my career journey as a Project Manager at Group-IPS, in Belgium, leading various projects in both pharmaceutical and alimentary sectors.
-			</div>
-		</div>
-	</section>
-</div> -->
-
-<!-- image 2 as flexbox -->
-
-<!-- <div class="flex-container">
-  <div style="flex-grow: 1"> <img src="images/corinne-kutz.jpg" alt="Work Experiences" class="item-xp"> </div>
-  <div style="flex-grow: 1"> <h5 class="card-title item-xp2"><strong>Work Experiences</strong></h5></div>
-</div> -->
-
 
 
 <!-- work experiences text -->
@@ -134,7 +95,7 @@ All these multi-cultural experiences enabled me to improve my knowledge and flue
 </div>
 
 <div class="explore">
-<strong>Explore my work experiences on the timeline below.</strong>
+<a class="nostyle" href="#timeline"> <strong>Explore my work experiences on the timeline below.</strong></a>
 </div>
 
 
@@ -159,7 +120,7 @@ All these multi-cultural experiences enabled me to improve my knowledge and flue
 
 <!-- Experiences as timeline -->
 
-<div class="timeline">
+<div id="timeline" class="timeline">
   <div class="container-timeline c-left">
   	<div class="date">  12/2020 - today </div>
     <div class="content-timeline">
@@ -217,48 +178,67 @@ All these multi-cultural experiences enabled me to improve my knowledge and flue
 </div>
 
 
+
+<div class="more">
+<strong>Do you want to continue to explore?</strong>
+</div>
+
+<div class="d-flex justify-content-center">
+	<a href="#image-skills"> <span style ="color: #89c2d9ff;"> <i class="fas fa-angle-double-down double-arrow"></i></span>
+</a>
+</div>
+
 <br>
 
-<div class="image-skills">
+<div id="image-skills" class="image-skills">
 	<h5 class="card-title"><strong>My Skills</strong></h5> 
-	<div class="image-legend-xp"><small class="text-muted">Photo by Beatriz Perez on Unsplash </small> 
+	<div class="image-legend-xp"><small>Photo by Beatriz Perez on Unsplash </small> 
 	</div>
 </div>
 
 
-<br>
+
 <div class="skills">
-<div class="skills-text">
-My studies as well as my various work experiences and my curiosity to learn about new subjects and improve my knowledge enabled me to develop the following skills:
+	<div class="skills-text">
+	My studies as well as my various work experiences and my curiosity to learn about new subjects and improve my knowledge enabled me to develop the following skills:
+	</div>
+
+
+<div class="row">
+	<div class="skills-soft">
+		<div class="column col-soft">
+			<div class="tag-soft"><strong>Soft skills:</strong></div>
+				<br>
+				<div class="tag">Agile</div>
+				<div class="tag">Scrum</div>	
+				<div class="tag">Process improvement</div>
+				<br>
+				<div class="tag">Team management</div>
+				<div class="tag">Project management</div>
+				<div class="tag">Quality management</div>
+				<br>
+				<div class="tag">Autonomy</div>
+				<div class="tag">Proactivity</div>
+		</div>
+
+		<div class="column col-tech">
+			<div class="tag-tech"><strong>Technical skills:</strong></div> 
+			<br>
+				<div class="tag2">Advanced Excel</div>
+				<div class="tag2">Word</div>
+				<div class="tag2">PowerPoint</div><br>
+				<div class="tag2">Data Analysis</div> 
+				<div class="tag2">MS Project</div> 
+				<br>
+				<div class="tag2">HTML, CSS, JavaScript</div>
+				<div class="tag2">LaTeX</div> 
+				<br>
+				<div class="tag2">JIRA, Trello, Todoist</div>
+				<!-- <div class="tag2">Google Calendar, Gmail</div> -->
+				<div class="tag2">Teams, Discord</div>
+		</div>
+	</div>
 </div>
-<br>
-<div class="skills-soft">
-<div class="tag-soft"><strong>Soft skills:</strong></div><br>
-	<div class="tag">Agile</div>
-	<div class="tag">Scrum</div>	
-	<div class="tag">Process improvement</div>
-	<br>
-	<div class="tag">Team management</div>
-	<div class="tag">Project management</div>
-	<div class="tag">Quality management</div>
-	<br>
-	<div class="tag">Autonomy</div>
-	<div class="tag">Proactivity</div>
-</div>
-<br>
-<div class="tag-tech"><strong>Technical skills:</strong></div> <br>
-	<div class="tag2">Advanced Excel</div>
-	<div class="tag2">Word</div>
-	<div class="tag2">PowerPoint</div>
-	<div class="tag2">Data Analysis</div> 
-	<div class="tag2">MS Project</div> 
-	<br>
-	<div class="tag2">HTML, CSS, JavaScript</div>
-	<div class="tag2">LaTeX</div> 
-	<br>
-	<div class="tag2">JIRA, Trello, Todoist</div>
-	<div class="tag2">Google Calendar, Gmail</div>
-	<div class="tag2">Teams, Discord</div>
 </div>
 
 <br>
@@ -267,12 +247,12 @@ My studies as well as my various work experiences and my curiosity to learn abou
 
 <div class="image-interests">
 	<h5 class="card-title"><strong>My Interests</strong></h5> 
-	<div class="image-legend-xp"><small class="text-muted">Photo by Sarah Dorweiler on Unsplash </small> 
+	<div class="image-legend-int"><small>Photo by Sarah Dorweiler on Unsplash </small> 
 	</div>
 </div>
 
 <br>
-<div class="skills">
+<div class="skills-soft">
 <div class="tag-soft"><strong>My Interests:</strong></div><br>	
 	<div class="tag">Reading</div>
 	<div class="tag">Art Exhibitions</div>
