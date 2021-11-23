@@ -141,8 +141,9 @@ a.nostyle:visited {
 	padding-left: 50px;
 	max-width: 1100px;
 	text-anchor: end;
-	line-height: 30px;
+	line-height: 33px;
 	text-align: center;
+	font-size: 15px;
 }
 
 .explore{
