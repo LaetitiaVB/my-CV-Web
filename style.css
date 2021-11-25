@@ -417,7 +417,6 @@ p{
 .column {
   float: left;
   width: 50%;
-  /*padding: 0px 20px 0px 20px;*/
 }
 
 .col-soft{
@@ -438,10 +437,6 @@ p{
 .skills-soft{
 	font-family: 'Montserrat', sans-serif;
 	font-style: italic;
-	/*margin: 5px auto 5px;*/
-	/*padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 0px;*/
 	line-height: 25px;
 	text-align: center;
 	font-size: 14px;
@@ -586,6 +581,19 @@ p{
 
 
 /* footer */
+
+.more2{
+	font-family: 'Montserrat', sans-serif;
+	color: #89c2d9ff;
+	font-size: 18px;
+	margin: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 15px;
+	padding-top: 45px;
+	max-width: 1000px;
+	text-align: center;
+}
 
 footer {
 	text-align: center;
